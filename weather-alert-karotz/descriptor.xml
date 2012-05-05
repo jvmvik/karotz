@@ -1,0 +1,15 @@
+<descriptor>
+	<name>kiteweather</name>
+    <version>0.0.6</version>
+
+    <accesses>
+        <access>tts</access>
+        <access>button</access>
+		<access>led</access>
+		<access>http</access>
+		<access>ears</access>
+    </accesses>
+
+ 	<multiConf>false</multiConf>
+ 	<deployment>hosted</deployment>
+</descriptor>

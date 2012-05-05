@@ -1,0 +1,13 @@
+<project name="kiteweather" default="zip">
+
+	<property name="zip.name" value="kiteweather.zip"/>
+	
+	<target name="zip">
+		<delete file="${zip.name}"/>
+		<zip destfile="${zip.name}"
+		       basedir="."
+			   excludes="build.xml"
+		  />
+	</target>
+	
+</project>
